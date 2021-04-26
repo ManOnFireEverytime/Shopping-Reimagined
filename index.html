@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Shopping Reimagined</title>
+    
+</head>
+<body onLoad="renderTime();">
+    
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"><img src="img/logo.png" alt=""></a>
+            <div class="counter">
+                <div class="count">00</div>
+        
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Products</a></li>
+                    <li class="nav__item"><a href="#feedback" class="nav__link">Feedback</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                    <li class="nav__item" id="customInput"><a class="nav__link"></a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="right-menu">
+                <a href="search.html" class="search">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <div class = "cart">
+                <button type = "button" id = "cart-btn">
+                  <i class = "fas fa-shopping-cart"></i>
+                  <span id = "cart-count-info"></span>
+                </button>
+                
+                <div class = "cart-container">
+                  <div class = "cart-list">
+                  </div>
+    
+                  <div class = "cart-total">
+                    <h3>Total: $</h3>
+                    <span id = "cart-total-value"></span>
+                  </div>
+                </div>
+              </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home section active" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Shopping Reimagined</h1>
+                    <h2 class="home__subtitle">Creating a whole new  <br> shopping experience for you.</h2>
+                    <a href="#menu" class="button">View Products</a>
+                </div>
+
+                <img src="img/shop.svg" alt="" class="home__img">
+            </div>
+        </section>
+        <section class="menu section bd-container">
+            <span class="section-subtitle">Featured Products</span>
+            <h2 class="section-title"></h2>
+    
+            <div class="menu__container1 bd-grid">
+                <div class="menu__content1">
+                    <img src="img/asus1.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Asus ROG Laptop</h3>
+                    <span class="menu__price1">$399.99</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/asus2.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Asus Pro</h3>
+                    <span class="menu__price1">$300</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                
+                <div class="menu__content1">
+                    <img src="img/white.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Plain White T-Shirt</h3>
+                    <span class="menu__price1">N3000</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/black.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Plain Black T-Shirt</h3>
+                    <span class="menu__price1">N2000</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/nike run.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Nike Runner</h3>
+                    <span class="menu__price1">N1300</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+                <div class="menu__content1">
+                    <img src="img/nike zoom.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Nike Zoom</h3>
+                    <span class="menu__price1">N2200</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/adidas original.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Adidas Original</h3>
+                    <span class="menu__price1">N2800</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/bag.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Watermelon Bag</h3>
+                    <span class="menu__price1">N2000</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+    
+                <div class="menu__content1">
+                    <img src="img/iphone x.png" alt="" class="menu__img1">
+                    <h3 class="menu__name1">Iphone X</h3>
+                    <span class="menu__price1">N800</span>
+                    <a href="#menu" class="button menu__button1"><i class='bx bx-cart-alt'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <h2 class="section-title">About Us</h2>
+                    <span class="section-subtitle about__initial">About us</span>
+                    <h2 class="section-title about__initial">We provide the best <br> shopping experience</h2>
+                    <p class="about__description">With excellent customer service, the best deals and the best products, visit us.</p>
+                    <!-- <a href="#" class="button">Explore history</a> -->
+                </div>
+
+                <img src="img/deals.svg" alt="" class="about__img">
+            </div>
+        </section>
+
+    <section class="services section bd-container">
+        <span class="section-subtitle">What we offer</span>
+        <h2 class="section-title">Our amazing services</h2>
+
+        <div class="services__container  bd-grid">
+            <div class="services__content">
+                <img src="img/success.svg" class="services__img" alt="">
+                <h3 class="services__title">Easy Purchase</h3>
+                <!-- <p class="services__description">We offer our clients excellent quality services with mouth watering and freshly made meals.</p> -->
+            </div>
+
+            <div class="services__content">
+                <img src="img/delivery.svg" class="services__img" alt="">
+                <h3 class="services__title">Fast Delivery</h3>
+                <p class="services__description"></p>
+            </div>
+
+            <div class="services__content">
+                <img src="img/promo.svg" class="services__img" alt="">
+                <h3 class="services__title">Best Deals</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="about section bd-container">
+        <div class="about__container  bd-grid">
+
+            <img src="img/order.svg" alt="" class="about__img">
+            <div class="about__data">
+                <span class="section-subtitle about__initial">Who we are</span>
+                <p class="about__description">Shopping Reimagined is the number one online shopping destination where you can shop the widest selection of electronics, fashion, home appliances, kid's items and more and have them shipped directly to your home or office at your convenience! We offer free delivery, free returns and have several convenient payment options to choose from, either with your debit/credit cards or cash on delivery. With affordable prices and great products, Shopping Reimagined lets you enjoy an awesome shopping experience with your order sent directly to your doorstep. No muss, no fuss, super convenience guaranteed.</p>
+                <!-- <a href="#" class="button">Explore history</a> -->
+            </div>
+
+            
+        </div>
+    </section>
+    <section class="about section bd-container">
+        <div class="about__container  bd-grid">
+
+            <img src="img/call.svg" alt="" class="about__img">
+            <div class="about__data">
+                <span class="section-subtitle about__initial">Want to Talk to Us?</span>
+                <p class="about__description">Our Email: support@shoppingreimagined.com <br>Our Address: 123 Aptech Street, Lagos, Nigeria <br> Our Contact Number: +2347080366490</p>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="menu section bd-container" id ="menu">
+            <span class="section-subtitle">Shop</span>
+            <h2 class="section-title">Products</h2>
+            <div class="menu__container bd-grid">
+            </div>
+        </section>
+        <section class="feedback section bd-container" id ="feedback">
+            <div class="about__container  bd-grid">
+    
+                <img src="img/rating.svg" alt="" class="about__img">
+                <div class="about__data">
+                    <h1>We want your feedback</h1>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <textarea class="contact-form-text" placeholder="Your Feedback"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+                </div>
+    
+                
+            </div>
+        </section>
+            <!--========== CONTACT US ==========-->
+    <section class="contact section bd-container" id="contact">
+            <div class=" section-gap"></div>
+      <div class="wrapper">
+        <h4 class="sub-title text-center">Find us</h4>
+        <h3 class="global-title text-center">Contact us</h3>
+        <div class="d-grid contact-view">
+          <div class="cont-details">
+
+
+            <div class="cont-top">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-mobile"></span>
+              </div>
+
+              <div class="cont-right">
+                <h6>Call Us</h6>
+                <p><a href="#">+234 708 036 6490</a></p>
+              </div>
+
+            </div>
+
+
+            <div class="cont-top margin-up">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-envelope"></span>
+              </div>
+              <div class="cont-right">
+                <h6>Email Us</h6>
+                <p><a href="#" class="mail">support@shoppingreimagined.com<a></p>
+              </div>
+              
+            </div>
+
+
+            <div class="cont-top margin-up">
+              <div class="cont-left text-center">
+                <span class="fa fa-map-marker"></span>
+              </div>
+              <div class="cont-right">
+                <h6>Address</h6>
+                <p>123, Aptech Street, Lagos, Nigeria</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="map-content">
+            <form action="#" method="post">
+              <div class="twice-two">
+                <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
+                <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email"
+                  required="">
+              </div>
+
+              <div class="twice">
+                <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject"
+                  required="">
+              </div>
+
+              <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message"
+                required=""></textarea>
+              <button type="submit" class="btn btn-contact">Send</button>
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div id="clockDisplay" class="container"></div>
+            <div id="Country"></div>
+            <div id="City"></div>
+        </div>
+
+        </footer>
+
+        <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    var name = prompt("What is your name?")
+    var username = document.getElementById("customInput")
+
+    username.innerText = name
+        window.alert("Welcome to Shopping Reimagined")
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

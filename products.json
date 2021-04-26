@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe1.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe2.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe3.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe4.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe5.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe6.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/clothe7.png"
+    },
+    {
+        "name": "Plain White T-Shirt",
+        "price": "9.99",
+        "img": "img/white.png"
+    },
+    {
+        "name": "Plain Black T-Shirt",
+        "price": "11.99",
+        "img": "img/black.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe1.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe2.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe3.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe4.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe5.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe6.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe7.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe8.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/shoe9.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop1.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop2.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop3.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop4.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop5.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop6.png"
+    },
+    {
+        "name": "Watermelon Bag",
+        "price": "19.99",
+        "img": "img/laptop7.png"
+    },
+    {
+        "name": "Asus ROG Laptop",
+        "price": "399.99",
+        "img": "img/asus1.png"
+    },
+    {
+        "name": "Asus Pro",
+        "price": "300",
+        "img": "img/asus2.png"
+    }
+]
