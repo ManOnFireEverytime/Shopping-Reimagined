@@ -16,8 +16,6 @@
   --ghost-white: #f8f9fd;
   --granite-gray: #626a6a;
   --baltic-sea: #33383c;
-  --granite-gray: #626a6a;
-  --baltic-sea: #33383c;
   --trans: all 0.5s ease-in-out;
 
   /*========== Font and typography ==========*/
@@ -34,7 +32,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes ==========*/
+  /*========== Margin ==========*/
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
