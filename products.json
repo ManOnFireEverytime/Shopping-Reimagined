@@ -1,137 +1,137 @@
 [
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Neon Print T-shirt",
+        "price": "2.99",
         "img": "img/clothe1.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Plain Blue T-shirt",
+        "price": "1.99",
         "img": "img/clothe2.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Plain Pink T-shirt",
+        "price": "1.99",
         "img": "img/clothe3.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Plain Gray T-shirt",
+        "price": "1.99",
         "img": "img/clothe4.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Plain White T-shirt",
+        "price": "1.99",
         "img": "img/clothe5.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Multicolored Shirt",
+        "price": "3.99",
         "img": "img/clothe6.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Red Polo",
+        "price": "4.99",
         "img": "img/clothe7.png"
     },
     {
         "name": "Plain White T-Shirt",
-        "price": "9.99",
+        "price": "1.99",
         "img": "img/white.png"
     },
     {
         "name": "Plain Black T-Shirt",
-        "price": "11.99",
+        "price": "1.99",
         "img": "img/black.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Brown Vans",
+        "price": "119.99",
         "img": "img/shoe1.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Blue Vans",
+        "price": "139.99",
         "img": "img/shoe2.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Blue and Red Vans",
+        "price": "119.99",
         "img": "img/shoe3.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Lightning Vans",
+        "price": "179.99",
         "img": "img/shoe4.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "High Black Converse",
+        "price": "89.99",
         "img": "img/shoe5.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Black Converse",
+        "price": "69.99",
         "img": "img/shoe6.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Brown Leather Shoe",
+        "price": "219.99",
         "img": "img/shoe7.png"
     },
     {
-        "name": "Watermelon Bag",
+        "name": "Black Leather Shoe",
         "price": "19.99",
         "img": "img/shoe8.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Red Kid Shoes",
+        "price": "39.99",
         "img": "img/shoe9.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Acer Flex",
+        "price": "1199.99",
         "img": "img/laptop1.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Asus Vivobook",
+        "price": "1499.99",
         "img": "img/laptop2.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Adventors Mini",
+        "price": "799.99",
         "img": "img/laptop3.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Apple Macbook 2010",
+        "price": "2299.99",
         "img": "img/laptop4.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "HP Notebook A500",
+        "price": "1099.99",
         "img": "img/laptop5.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Acer Predator",
+        "price": "1999.99",
         "img": "img/laptop6.png"
     },
     {
-        "name": "Watermelon Bag",
-        "price": "19.99",
+        "name": "Apple Macbook 2020",
+        "price": "2999.99",
         "img": "img/laptop7.png"
     },
     {
-        "name": "Asus ROG Laptop",
-        "price": "399.99",
+        "name": "Asus Q200E Laptop",
+        "price": "599.99",
         "img": "img/asus1.png"
     },
     {
-        "name": "Asus Pro",
-        "price": "300",
+        "name": "Asus Pro Laptop",
+        "price": "1999.99",
         "img": "img/asus2.png"
     }
 ]

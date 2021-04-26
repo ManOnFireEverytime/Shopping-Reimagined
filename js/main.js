@@ -335,7 +335,7 @@ $.get('https://ipinfo.io',function(response){
    $("#City").html('City:<b>'+response.city+'<b>');
    },'json');
 
-   $(document).ready(function(){
+$(document).ready(function(){
     $.ajaxSetup({ cache: false });
     $('#search').keyup(function(){
      $('#result').html('');
@@ -356,4 +356,4 @@ $.get('https://ipinfo.io',function(response){
      $('#search').val($.trim(click_text[0]));
      $("#result").html('');
     });
-   });
+});
